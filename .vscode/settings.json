@@ -4,5 +4,6 @@
     "lldb.dereferencePointers": true,
     "lldb.consoleMode": "commands",
     "editor.formatOnSave": true,
-    "editor.detectIndentation": false
+    "editor.detectIndentation": false,
+    "cmake.configureOnOpen": false
 }

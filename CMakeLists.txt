@@ -8,18 +8,20 @@ set(CMAKE_CXX_STANDARD 17)
 project(${PROJECT_NAME} C CXX)
 add_subdirectory(${CMAKE_CURRENT_LIST_DIR}/3rdparty/SDL/)
 
+find_package(OpenGL REQUIRED)
+
 add_executable(${PROJECT_NAME}
     ${CMAKE_CURRENT_LIST_DIR}/src/main.cpp
 )
 
 target_include_directories(${PROJECT_NAME}
     PUBLIC
-        ${CMAKE_CURRENT_LIST_DIR}/3rdparty/SDL/include/
-        ${CMAKE_CURRENT_LIST_DIR}/3rdparty/sokol/
+    ${CMAKE_CURRENT_LIST_DIR}/3rdparty/SDL/include/
+    ${CMAKE_CURRENT_LIST_DIR}/3rdparty/sokol/
 )
 
 target_link_libraries(${PROJECT_NAME}
     PUBLIC
-        SDL3::SDL3
+    SDL3::SDL3
+    OpenGL::GL
 )
-
