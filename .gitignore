@@ -1,0 +1,11 @@
+.DS_Store
+.cache
+
+bin/SDL3_Sokol.exe
+bin/SDL3_Sokol.pdb
+bin/SDL3.dll
+bin/SDL3.pdb
+
+build/
+
+

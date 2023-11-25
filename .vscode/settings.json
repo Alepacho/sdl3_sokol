@@ -1,0 +1,8 @@
+{
+    "dotnet.defaultSolution": "disable",
+    "lldb.showDisassembly": "auto",
+    "lldb.dereferencePointers": true,
+    "lldb.consoleMode": "commands",
+    "editor.formatOnSave": true,
+    "editor.detectIndentation": false
+}

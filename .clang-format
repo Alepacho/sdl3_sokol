@@ -1,0 +1,13 @@
+BasedOnStyle: LLVM
+ColumnLimit: 80
+UseTab: Always
+IndentWidth: 4
+TabWidth: 4
+AlignTrailingComments: true
+UseCRLF: false
+AlignConsecutiveMacros: Consecutive
+AllowShortIfStatementsOnASingleLine: false
+AlignTrailingComments: true
+SpacesBeforeTrailingComments: 3
+AlignArrayOfStructures: Left
+Cpp11BracedListStyle: false
